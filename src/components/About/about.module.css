@@ -1,0 +1,65 @@
+.container {
+    background-color: rgb(249, 249, 249);
+    padding:70px 60px 20px;
+    z-index:-1;
+   margin-top: 80px;
+}
+
+.kings {
+   
+    background-image: url("/myImage.jpeg");
+    background-size: 100%;
+    height: 300px;
+
+margin:auto;
+    width:300px;
+    animation: 8s ease-in-out 0s infinite normal  morph;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(45, 46, 50);
+    border-image: initial;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    transition: all 1s ease-in-out 0s;
+
+}
+.main {
+    flex:1;
+}
+
+.first {
+    flex:1;
+}
+
+@keyframes morph{
+0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30%;
+}
+
+100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+}
+
+@media screen and (max-width:1000px) {
+ .main {
+    flex:0.3
+    }
+
+    .first {
+        flex:0.7
+    }
+}
+
+@media screen and (max-width:720px) {
+    .kings {
+        width:250px;
+      
+    }
+}
+
