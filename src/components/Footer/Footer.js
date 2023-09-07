@@ -1,6 +1,6 @@
 import React from 'react'
-import {FiGithub} from "react-icons/fi"
-import {BiLogoLinkedin} from "react-icons/bi"
+import {AiOutlineGithub} from "react-icons/ai"
+import {AiFillLinkedin} from "react-icons/ai"
 import Link from 'next/link'
 export default function Footer() {
   return (
@@ -10,9 +10,9 @@ export default function Footer() {
 <div className="font-[900]">Copyright © 2023. All rights are reserved</div>
 
 <div className="flex gap-x-4 text-white">
-<Link href = "https://github.com/Kingsley1618" className=""><FiGithub className="text-[30px]"/></Link>
+<Link href = "https://github.com/Kingsley1618" className=""><AiOutlineGithub className="text-[30px]"/></Link>
 
- <Link href = "https://www.linkedin.com/in/king-of-frontend-dev-0bb277208"><BiLogoLinkedin className="text-[30px]"/></Link>
+ <Link href = "https://www.linkedin.com/in/king-of-frontend-dev-0bb277208"><AiFillLinkedin className="text-[30px]"/></Link>
 </div>
 
 </div>

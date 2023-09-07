@@ -3,15 +3,14 @@ import Link from 'next/link';
 import styles from "./about.module.css"
 import Image from 'next/image'
 import { Tooltip } from 'antd';
-
 import HtImage from "@/assets/Images/html.svg"
 import Css from "@/assets/Images/css.svg"
 import Javascript from "@/assets/Images/javascript.svg"
 import Tailwind from "@/assets/Images/tailwind.svg"
 import ReactImage from "@/assets/Images/react.svg"
 import Sass from "@/assets/Images/sass.svg"
-import {BsLinkedin} from "react-icons/bs"
-import {BsGithub} from "react-icons/bs"
+import {AiFillLinkedin} from "react-icons/ai"
+import {AiOutlineGithub} from "react-icons/ai"
 import Wave from "@/assets/Images/wave.png"
 import NextImage from "@/assets/Images/next.svg"
 export default function About() {
@@ -28,7 +27,7 @@ export default function About() {
 
 
 <div className="md:mt-0 mt-4 md:text-left text-center">Hi, I'm Okeze Kingsley Nonso. A Passionate/Experienced Front-end  Developer based in Lagos, Nigeria. 📍</div>
-<div className="flex gap-x-5 md:mt-4 mt-6"><Link href="https://www.linkedin.com/in/king-of-frontend-dev-0bb277208"><BsLinkedin className="text-[30px] text-[#2d2e32]"/></Link> <Link href = "https://github.com/Kingsley1618"><BsGithub className="text-[#2d2e32] text-[30px]"/></Link></div>
+<div className="flex gap-x-5 md:mt-4 mt-6"><Link href="https://www.linkedin.com/in/king-of-frontend-dev-0bb277208"><AiFillLinkedin className="text-[30px] text-[#2d2e32]"/></Link> <Link href = "https://github.com/Kingsley1618"><AiOutlineGithub className="text-[#2d2e32] text-[30px]"/></Link></div>
 </div>
 
 <div className={`${styles.main} md:order-last order-first`}><div className = {styles.kings}></div></div>
