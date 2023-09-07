@@ -1,0 +1,27 @@
+.udemy {
+    background-color: rgba(128, 128, 128, 0.014);
+}
+
+.arrow {
+animation-name: drive;
+animation-timing-function: linear;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+font-size: 30px;
+font-weight: 800;
+}
+
+@keyframes drive {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}

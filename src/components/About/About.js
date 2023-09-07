@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import styles from "./about.module.css"
 import Image from 'next/image'
 import { Tooltip } from 'antd';
@@ -16,7 +17,7 @@ import NextImage from "@/assets/Images/next.svg"
 export default function About() {
     const text = <span>prompt text</span>
   return (
-    <div className={styles.container}>
+    <section  className={styles.container}>
     <div className={`flex gap-x-8 md:flex-row md:order-first order-last flex-col justify-between md:mx-auto w-[100%] max-w-[1100px] items-center`}>
 <div className={`flex md:items-start md:mt-0 mt-8 items-center flex-col ${styles.first}`}>
 
@@ -26,8 +27,8 @@ export default function About() {
 
 
 
-<div className="md:mt-0 mt-4 md:text-left text-center">Hi, I'm Stefan Topalovic. A passionate Front-end React Developer based in Belgrade, Serbia. 📍</div>
-<div className="flex gap-x-5 md:mt-4 mt-6"><BsLinkedin className="text-[30px] text-[#2d2e32]"/> <BsGithub className="text-[#2d2e32] text-[30px]"/></div>
+<div className="md:mt-0 mt-4 md:text-left text-center">Hi, I'm Okeze Kingsley Nonso. A Passionate/Experienced Front-end  Developer based in Lagos, Nigeria. 📍</div>
+<div className="flex gap-x-5 md:mt-4 mt-6"><Link href="https://www.linkedin.com/in/king-of-frontend-dev-0bb277208"><BsLinkedin className="text-[30px] text-[#2d2e32]"/></Link> <Link href = "https://github.com/Kingsley1618"><BsGithub className="text-[#2d2e32] text-[30px]"/></Link></div>
 </div>
 
 <div className={`${styles.main} md:order-last order-first`}><div className = {styles.kings}></div></div>
@@ -36,8 +37,8 @@ export default function About() {
     </div>
 <div className="flex md:flex-row flex-col gap-x-7 mt-[60px] items-center justify-center gap-y-4 flex-wrap px-5">
 <div className="font-bold text-[22px] md:border-b-0 border-b-2 border-b-[black] md:pr-3 md:border-r-2 md:border-r-[black]">Tech Stack</div>
-    <div className="flex flex-row items-center flex-wrap justify-center gap-y-4 gap-x-7">
-    <Tooltip placement="rightBottom" title={"HTML"}>
+    <div className="flex flex-row items-center flex-wrap justify-center gap-y-7 gap-x-7">
+    <Tooltip placement="left" title={"HTML"}>
        <Image src = {HtImage} width={40} height = {40} alt = 'html' className="" />
       </Tooltip>
 
@@ -62,10 +63,10 @@ export default function About() {
       </Tooltip>
 
       <Tooltip placement="rightBottom" title={"Next"}>
-      <Image src = {NextImage} width={40} height = {40} alt = 'html' className="" />
+      <Image src = {NextImage} width={50} height = {50} alt = 'html' className="" />
       </Tooltip>
       </div>
       </div>
-    </div>
+    </section>
   )
 }
