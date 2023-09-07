@@ -55,7 +55,7 @@ const FormPage = () => {
     <div className="px-[30px] py-[40px] shadow-2xl bg-white">
       <div className="max-w-[900px] w-[100%] mx-auto block">
         <h1 className="font-bold text-center text-[30px]">Contact Me for Job Opportunities</h1>
-        <p className="text-center text-[14px] break-words font-bold text-[rgb(118,118,140)]">If you're interested in hiring me or discussing potential job opportunities, please feel free to get in touch by filling out the form below. I'd love to hear from you!</p>
+        <p className="text-center text-[14px] break-words font-bold text-[rgb(118,118,140)]">If you&apos;re interested in hiring me or discussing potential job opportunities, please feel free to get in touch by filling out the form below. I&apos;d love to hear from you!</p>
 
         {!result ? <Form
           onFinish={formik.handleSubmit}

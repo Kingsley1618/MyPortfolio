@@ -106,7 +106,7 @@ This website is on a mission to create prosperous communities across Africa by h
 
 <div className="flex-[1] text-center justify-center">
 <h1 className="font-bold">TICTACTOE</h1>
-<div className=" mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">  The objective of Tic-Tac-Toe is clear-cut: be the first player to complete a row, column, or diagonal with your chosen symbol—either "X" or "O." The game is played on a 3x3 grid, which offers both players an equal chance to outmaneuver their opponent.</div>
+<div className=" mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">  The objective of Tic-Tac-Toe is clear-cut: be the first player to complete a row, column, or diagonal with your chosen symbol—either &quot;X&quot; or &quot;O.&quot; The game is played on a 3x3 grid, which offers both players an equal chance to outmaneuver their opponent.</div>
 
 <div className="flex gap-x-5 justify-center mt-7 flex-wrap sm:flex-row flex-col gap-y-3 mx-1">
 <h1 className="bg-white font-bold  p-2" style = {{boxShadow:"1px 1px 10px black"}}>React</h1>

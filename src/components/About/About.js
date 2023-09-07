@@ -26,7 +26,7 @@ export default function About() {
 
 
 
-<div className="md:mt-0 mt-4 md:text-left text-center">Hi, I'm Okeze Kingsley Nonso. A Passionate/Experienced Front-end  Developer based in Lagos, Nigeria. 📍</div>
+<div className="md:mt-0 mt-4 md:text-left text-center">Hi, I&apos;m Okeze Kingsley Nonso. A Passionate/Experienced Front-end  Developer based in Lagos, Nigeria. 📍</div>
 <div className="flex gap-x-5 md:mt-4 mt-6"><Link href="https://www.linkedin.com/in/king-of-frontend-dev-0bb277208"><AiFillLinkedin className="text-[30px] text-[#2d2e32]"/></Link> <Link href = "https://github.com/Kingsley1618"><AiOutlineGithub className="text-[#2d2e32] text-[30px]"/></Link></div>
 </div>
 

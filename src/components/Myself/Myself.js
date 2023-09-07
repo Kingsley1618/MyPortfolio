@@ -9,8 +9,8 @@ function Myself() {
     <div className = "flex max-w-[1000px] w-[100%] justify-center mx-auto items-center  lg:gap-x-[40px] lg:flex-row flex-col">
         <div className="flex-[1] items-center">
 <div className="relative w-[100%] max-w-[420px] h-[420px] items-center flex">
-<Image src = {Laptop}  className="rounded-3xl w-[100%]"/> <Image width={140} height={140} src = {Work}  className="absolute bg-white p-[50px] right-[2px]  rounded-full bottom-[0px]"/>
- <Image width={130} height={130} src = {Rotate}  className="animate-spin-rotate font-bold object-cover absolute  right-[8px]  bottom-[6px]"/>
+<Image src = {Laptop}  className="rounded-3xl w-[100%]" alt="laptop"/> <Image alt="work" width={140} height={140} src = {Work}  className="absolute bg-white p-[50px] right-[2px]  rounded-full bottom-[0px]"/>
+ <Image width={130} height={130} src = {Rotate} alt="rotate"  className="animate-spin-rotate font-bold object-cover absolute  right-[8px]  bottom-[6px]"/>
 </div>
 
 </div>
@@ -27,7 +27,7 @@ With a passion for pixel-perfect design and a knack for creating seamless user i
 
 I&apos;m no stranger to authentication systems, having seamlessly integrated ClerkAuth to enhance user onboarding and security. Tailwind CSS and Ant Design are my go-to tools for crafting visually appealing, user-friendly interfaces, while Sanity.io keeps my content management streamlined and efficient.
 
-When it comes to state management, I turn to Redux, ensuring a clean, predictable data flow throughout the application. But I don't just stop at the frontend. I&apos;m well-versed in handling the backend intricacies too, ensuring a holistic approach to web development.
+When it comes to state management, I turn to Redux, ensuring a clean, predictable data flow throughout the application. But I don&apos;t just stop at the frontend. I&apos;m well-versed in handling the backend intricacies too, ensuring a holistic approach to web development.
 
 My passion for creating polished, performant, and user-focused websites extends beyond just code. I bring a strong sense of collaboration, problem-solving, and a commitment to delivering projects on time and within scope.
 
