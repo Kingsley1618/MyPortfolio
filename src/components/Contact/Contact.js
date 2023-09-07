@@ -1,5 +1,5 @@
 import React from 'react'
-import {GrLocation} from "react-icons/gr"
+import {FaLocationArrow} from "react-icons/fa"
 import {AiOutlineMail} from "react-icons/ai"
 export default function Contact() {
   return (
@@ -13,7 +13,7 @@ export default function Contact() {
 
 <div className="flex md:flex-row flex-col items-center gap-y-[50px] md:gap-x-[69px]">
 <div className="flex md:flex-row flex-col items-center md:gap-y-0 gap-y-4 md:gap-x-4">
-    <GrLocation className="text-[rgb(20,126,251)] text-[50px] bg-white rounded-full p-2" style = {{boxShadow:"0px 1px 5px grey"}}/>
+    <FaLocationArrow className="text-[rgb(20,126,251)] text-[50px] bg-white rounded-full p-2" style = {{boxShadow:"0px 1px 5px grey"}}/>
     <div>
         <h1 className="font-[900] md:text-left text-center">Location</h1>
         <div className="text-[rgb(118,118,140)]">Lagos,Nigeria</div>
