@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import {WebImage} from "@/assets/Images/Web3Image.png"
 import Linx from "@/assets/Images/Linx.png"
 import {GoShare} from "react-icons/go"
 import Link from "next/link"
@@ -22,7 +23,7 @@ export default function Portfolio() {
 
 
 <div className="flex items-center shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
-<div className="flex-[1] text-center justify-center">
+<div className="flex-[1] lg:order-last text-center justify-center">
     <Link href = "https://linxplatform.com/"><Image alt = "linx" src = {Linx}  className="cursor-pointer rounded-xl ml-[-10px] lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
 
     
@@ -47,7 +48,7 @@ export default function Portfolio() {
 
 
 <div className="flex items-center shadow-2xl lg:flex-row px-2 flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
-<div className="flex-[1] lg:order-last text-center justify-center">
+<div className="flex-[1]  text-center justify-center">
 <Link href = "https://coin-dom-cryptocurrency-next-js13-p1bt.vercel.app/"><Image alt = "coindom" src = {Coindom}  className="cursor-pointer rounded-xl  lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
 
     
@@ -73,7 +74,7 @@ Coindom is a crypto app that allows users to search for information about variou
 
 
 <div className="flex items-center shadow-2xl px-2 lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
-<div className="flex-[1] text-center justify-center">
+<div className="flex-[1] lg:order-last text-center justify-center">
 <Link href = "https://ribyinc.com/"><Image alt = "riby" src = {Riby}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
 
     
@@ -93,6 +94,35 @@ This website is on a mission to create prosperous communities across Africa by h
 <Link href ="https://ribyinc.com/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
 </div>
 </div>
+
+
+
+
+<div className="flex items-center lg:order-first shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px] px-2 w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
+<div className="flex-[1]  text-center justify-center">
+<Link href = "https://web3-era-design-1.vercel.app/"><Image alt = "WEB3" src = {WebImage}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
+
+    
+</div>
+
+<div className="flex-[1] text-center justify-center">
+<h1 className="font-bold">WEB3 ERA</h1>
+<div className=" mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">Experience the future of finance with our Decentralized Finance (DeFi) Dashboard, a cutting-edge web3 project that empowers you to take control of your financial assets like never before.</div>
+
+<div className="flex gap-x-5 justify-center mt-7 flex-wrap sm:flex-row flex-col gap-y-3 mx-1">
+<h1 className="bg-white font-bold  p-2" style= {{boxShadow:"1px 1px 10px black"}}>NextJS</h1>
+
+<h1 className="bg-white font-bold  p-2" style = {{boxShadow:"1px 1px 10px black"}}>TailWind Css</h1>
+
+</div>
+<Link href ="https://web3-era-design-1.vercel.app/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
+</div>
+</div>
+
+
+
+
+
 
 
 
@@ -146,7 +176,7 @@ This website is on a mission to create prosperous communities across Africa by h
 
 
 <div className="flex items-center lg:order-last shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px] px-2 w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
-<div className="flex-[1]  text-center justify-center">
+<div className="flex-[1] lg:order-last  text-center justify-center">
 <Link href = "https://faithchinonso.github.io/EXPENSE-TRACKER/"><Image alt = "expense" src = {Expense}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
 
     
@@ -165,6 +195,11 @@ This website is on a mission to create prosperous communities across Africa by h
 <Link href ="https://faithchinonso.github.io/EXPENSE-TRACKER/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
 </div>
 </div>
+
+
+
+
+
 
 
 
