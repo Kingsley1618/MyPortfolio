@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import {WebImage} from "@/assets/Images/Web3Image.png"
+import WebImage from "@/assets/Images/Web3Image.png"
 import Linx from "@/assets/Images/Linx.png"
 import {GoShare} from "react-icons/go"
 import Link from "next/link"
@@ -98,8 +98,8 @@ This website is on a mission to create prosperous communities across Africa by h
 
 
 
-<div className="flex items-center lg:order-first shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px] px-2 w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
-<div className="flex-[1]  text-center justify-center">
+<div className="flex items-center  shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px] px-2 w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
+<div className="flex-[1] lg:order-first text-center justify-center">
 <Link href = "https://web3-era-design-1.vercel.app/"><Image alt = "WEB3" src = {WebImage}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
 
     
