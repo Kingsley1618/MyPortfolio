@@ -177,7 +177,7 @@ This website is on a mission to create prosperous communities across Africa by h
 
 <div className="flex items-center lg:order-last shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px] px-2 w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
 <div className="flex-[1] lg:order-last  text-center justify-center">
-<Link href = "https://faithchinonso.github.io/EXPENSE-TRACKER/"><Image alt = "expense" src = {Expense}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
+<Link href = "https://faithchinonso.github.io/EXPENSE-TRACKER/"><Image alt = "expensealt" src = {Expense}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
 
     
 </div>
