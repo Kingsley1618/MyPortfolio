@@ -7,6 +7,7 @@ import Link from "next/link"
 import TicTac from "@/assets/Images/Tictac.png"
 import Home from "@/assets/Images/Home.png"
 import Riby from "@/assets/Images/Riby.png"
+import Hackathon from "@/assets/Images/Hackathon1-0.png"
 import Coindom from "@/assets/Images/CoinDom.png"
 import Expense from "@/assets/Images/Expense.png"
 import styles from "./portfolio.module.css"
@@ -19,6 +20,28 @@ export default function Portfolio() {
 <div className="font-[600] text-[23px]">Each project is a unique piece of development</div>
 
 <div className="flex flex-col gap-y-[60px] mt-8 items-center">
+
+<div className="flex items-center shadow-2xl px-2 lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
+<div className="flex-[1]  text-center justify-center">
+<Link href = "https://kingsleyhackathon1-0.vercel.app/"><Image alt = "hackathon" src = {Hackathon}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
+
+    
+</div>
+
+<div className="flex-[1] text-center justify-center">
+<h1 className="font-[900]">HACKATHON 1.0</h1>
+<div className=" mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">
+Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you&apos;re a coding genius, a design maverick, or a concept wizard, you&apos;ll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that&apos;s what we&apos;re all about!</div>
+
+<div className="flex gap-x-5 justify-center mt-7 flex-wrap sm:flex-row flex-col gap-y-3 mx-1">
+<h1 className="bg-white font-bold   p-2" style = {{boxShadow:"1px 1px 10px black"}}>Next JS</h1>
+
+<h1 className="bg-white font-bold  p-2" style = {{boxShadow:"1px 1px 10px black"}}>TailWind Css</h1>
+
+</div>
+<Link href ="https://kingsleyhackathon1-0.vercel.app/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
+</div>
+</div>
 
 
 
@@ -46,7 +69,6 @@ export default function Portfolio() {
 
 
 
-
 <div className="flex items-center shadow-2xl lg:flex-row px-2 flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
 <div className="flex-[1]  text-center justify-center">
 <Link href = "https://coin-dom-cryptocurrency-next-js13-p1bt.vercel.app/"><Image alt = "coindom" src = {Coindom}  className="cursor-pointer rounded-xl  lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
@@ -68,9 +90,6 @@ Coindom is a crypto app that allows users to search for information about variou
 <Link href ="https://coin-dom-cryptocurrency-next-js13-p1bt.vercel.app/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
 </div>
 </div>
-
-
-
 
 
 <div className="flex items-center shadow-2xl px-2 lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
@@ -118,11 +137,6 @@ This website is on a mission to create prosperous communities across Africa by h
 <Link href ="https://web3-era-design-1.vercel.app/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
 </div>
 </div>
-
-
-
-
-
 
 
 
@@ -195,10 +209,6 @@ This website is on a mission to create prosperous communities across Africa by h
 <Link href ="https://faithchinonso.github.io/EXPENSE-TRACKER/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
 </div>
 </div>
-
-
-
-
 
 
 
