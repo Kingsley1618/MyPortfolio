@@ -12,7 +12,7 @@ export default function Footer() {
 <div className="flex gap-x-4 text-white">
 <Link href = "https://github.com/Kingsley1618" className=""><FaGithubAlt className="text-[30px]"/></Link>
 
- <Link href = "https://www.linkedin.com/in/king-of-frontend-dev-0bb277208"><FaLinkedinIn className="text-[30px]"/></Link>
+ <Link href = "https://www.linkedin.com/in/okeze-kingsley-0bb277208/"><FaLinkedinIn className="text-[30px]"/></Link>
 </div>
 
 </div>
