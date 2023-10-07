@@ -4,8 +4,10 @@ import WebImage from "@/assets/Images/Web3Image.png"
 import Linx from "@/assets/Images/Linx.png"
 import {GoShare} from "react-icons/go"
 import Link from "next/link"
+import ScityLana from "@/assets/Images/Scitylana.png"
 import TicTac from "@/assets/Images/Tictac.png"
 import Home from "@/assets/Images/Home.png"
+import Facebook from "@/assets/Images/Social-Media.png"
 import Riby from "@/assets/Images/Riby.png"
 import Hackathon from "@/assets/Images/Hackthon1-0.png"
 import Coindom from "@/assets/Images/CoinDom.png"
@@ -45,24 +47,51 @@ Our tech hackathon is a melting pot of visionaries, and its purpose is as clear 
 
 
 
-<div className="flex items-center shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
-<div className="flex-[1] lg:order-last text-center justify-center">
-    <Link href = "https://linxplatform.com/"><Image alt = "linx" src = {Linx}  className="cursor-pointer rounded-xl ml-[-10px] lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
+<div className="flex items-center shadow-2xl px-2 lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
+<div className="flex-[1]  text-center justify-center">
+<Link href = "https://scitylanalimited.github.io/Official-Website/index.html"><Image alt = "hackathon" src = {ScityLana}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
 
     
 </div>
 
 <div className="flex-[1] text-center justify-center">
-<h1 className="font-[900]">LINX</h1>
-<div className="mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">This Linx website offers business owners a full range of operations and marketing services to help reach more customers, improve efficiency, and increase revenue. Reach your target customers with your current services/products within a second.<bold>(Still on build)</bold>..</div>
+<h1 className="font-[900]">ScitylanaLimited</h1>
+<div className=" mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">
+Our mission is to ensure our clients growth and business sustainability. We proffer services to both SME's and larger organizations, ensuring that their values and goals are at the core of our heart in delivering our services.</div>
 
 <div className="flex gap-x-5 justify-center mt-7 flex-wrap sm:flex-row flex-col gap-y-3 mx-1">
-<h1 className="bg-white font-bold   p-2" style = {{boxShadow:"1px 1px 10px black"}}>React</h1>
+<h1 className="bg-white font-bold   p-2" style = {{boxShadow:"1px 1px 10px black"}}>Next JS</h1>
 
 <h1 className="bg-white font-bold  p-2" style = {{boxShadow:"1px 1px 10px black"}}>TailWind Css</h1>
 
 </div>
-<Link href = "https://linxplatform.com/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
+<Link href ="https://scitylanalimited.github.io/Official-Website/index.html" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
+</div>
+</div>
+
+
+
+
+
+
+<div className="flex items-center shadow-2xl lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
+<div className="flex-[1] lg:order-last text-center justify-center">
+    <Link href = "https://social-media-frontend-one.vercel.app/"><Image alt = "linx" src = {Facebook}  className="cursor-pointer rounded-xl ml-[-10px] lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
+
+    
+</div>
+
+<div className="flex-[1] text-center justify-center">
+<h1 className="font-[900]">Facebook Clone</h1>
+<div className="mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">This is a facebook Clone i made, Facebook helps you connect and share with people(Fullstack).</div>
+
+<div className="flex gap-x-5 justify-center mt-7 flex-wrap sm:flex-row flex-col gap-y-3 mx-1">
+<h1 className="bg-white font-bold   p-2" style = {{boxShadow:"1px 1px 10px black"}}>React</h1>
+
+<h1 className="bg-white font-bold  p-2" style = {{boxShadow:"1px 1px 10px black"}}>TailWind Css/Firebase</h1>
+
+</div>
+<Link href = "https://social-media-frontend-one.vercel.app/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
 </div>
 </div>
 
