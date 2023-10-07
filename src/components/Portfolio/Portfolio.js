@@ -57,7 +57,7 @@ Our tech hackathon is a melting pot of visionaries, and its purpose is as clear 
 <div className="flex-[1] text-center justify-center">
 <h1 className="font-[900]">ScitylanaLimited</h1>
 <div className=" mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">
-Our mission is to ensure our clients growth and business sustainability. We proffer services to both SME's and larger organizations, ensuring that their values and goals are at the core of our heart in delivering our services.</div>
+Our mission is to ensure our clients growth and business sustainability. We proffer services to both SME&apos;s and larger organizations, ensuring that their values and goals are at the core of our heart in delivering our services.</div>
 
 <div className="flex gap-x-5 justify-center mt-7 flex-wrap sm:flex-row flex-col gap-y-3 mx-1">
 <h1 className="bg-white font-bold   p-2" style = {{boxShadow:"1px 1px 10px black"}}>Next JS</h1>
