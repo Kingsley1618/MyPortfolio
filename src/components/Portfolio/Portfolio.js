@@ -1,8 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import WebImage from "@/assets/Images/Web3Image.png"
-import Linx from "@/assets/Images/Linx.png"
+
 import {GoShare} from "react-icons/go"
+import ChatImage from "@/assets/Images/Group-Chat.png"
 import Link from "next/link"
 import ScityLana from "@/assets/Images/Scitylana.png"
 import TicTac from "@/assets/Images/Tictac.png"
@@ -68,6 +69,42 @@ Our mission is to ensure our clients growth and business sustainability. We prof
 <Link href ="https://scitylanalimited.github.io/Official-Website/index.html" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
 </div>
 </div>
+
+
+
+
+
+
+
+<div className="flex items-center shadow-2xl px-2 lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
+<div className="flex-[1]  text-center justify-center">
+<Link href = "https://chatweb-full-stack.vercel.app/"><Image alt = "chatimage" src = {ChatImage}  className="cursor-pointer rounded-xl lg:w-[500px] lg:h-[300px] w-[100%]"/></Link>
+
+    
+</div>
+
+<div className="flex-[1] text-center justify-center">
+<h1 className="font-[900]">Kingsley Group Chat</h1>
+<div className=" mt-5 text-[rgb(118,120,118)] mx-auto block font-semibold text-[17px] max-w-[300px] w-[100%]">
+Embark on a digital communication revolution with our meticulously crafted Fullstack Chat Web Application. Designed with passion and expertise, this innovative platform seamlessly bridges the gap between users, facilitating real-time conversations with style and efficiency.</div>
+
+<div className="flex gap-x-5 justify-center mt-7 flex-wrap sm:flex-row flex-col gap-y-3 mx-1">
+<h1 className="bg-white font-bold   p-2" style = {{boxShadow:"1px 1px 10px black"}}>Next JS</h1>
+
+<h1 className="bg-white font-bold  p-2" style = {{boxShadow:"1px 1px 10px black"}}>TailWind Css</h1>
+<h1 className="bg-white font-bold  p-2" style = {{boxShadow:"1px 1px 10px black"}}>Firebase/Redux/Clerkauth</h1>
+
+</div>
+<Link href ="https://chatweb-full-stack.vercel.app/" className={`${styles.demo}  text-center flex justify-center flex-wrap items-center gap-x-1 cursor-pointer mt-7`}><h1 className="text-[16px]">Live Demo</h1> <GoShare  className="font-bold text-[24px]"/></Link>
+</div>
+</div>
+
+
+
+
+
+
+
 
 
 
