@@ -10,7 +10,7 @@ export default function Blog() {
    <Link href = "https://okezekingsleydev.hashnode.dev/nextjs-installation" ><div className="flex md:flex-row flex-col gap-[20px] items-center">
     <Link href = "https://okezekingsleydev.hashnode.dev/nextjs-installation" className="block border-2 broder-gray-600 max-w-[300px] shadow-lg p-3 w-[100%] my-8  hover:scale-[1.03] "><Image src={BlogImage} className="" height = {300} width = {300} alt= "blog" loading = "lazy" /></Link>
 
-   <p className="font-bold text-sm">In this guide, we'll walk through the process of starting a server using Next.js, a popular React framework that enables seamless server-side rendering and a great developer experience</p>
+   <p className="font-bold text-sm">In this guide, we&apos;ll walk through the process of starting a server using Next.js, a popular React framework that enables seamless server-side rendering and a great developer experience</p>
    </div>
    </Link>
    </section>
