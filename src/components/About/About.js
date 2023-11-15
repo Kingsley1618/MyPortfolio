@@ -14,7 +14,7 @@ import {AiOutlineGithub} from "react-icons/ai"
 import Wave from "@/assets/Images/wave.png"
 import NextImage from "@/assets/Images/next.svg"
 export default function About() {
-    const text = <span>prompt text</span>
+   
   return (
     <section  className={styles.container}>
     <div className={`flex gap-x-8 md:flex-row md:order-first order-last flex-col justify-between md:mx-auto w-[100%] max-w-[1100px] items-center`}>

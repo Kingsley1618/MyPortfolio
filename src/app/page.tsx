@@ -7,6 +7,7 @@ import Contact from "@/components/Contact/Contact"
 import Footer from "@/components/Footer/Footer"
 import Udemy from "@/components/Udemy/Udemy"
 import FormPage from '@/components/Form/Form'
+import Blog from "@/components/Blog/blog"
 export default function Home() {
  
   
@@ -16,10 +17,13 @@ export default function Home() {
      <About />
  <Myself />
  <Portfolio />
+ <Blog />
  <Contact />
  <Udemy />
  <FormPage />
  <Footer />
+
+ 
     </main>
   )
 }
