@@ -12,6 +12,7 @@ import Sass from "@/assets/Images/sass.svg"
 import {AiFillLinkedin} from "react-icons/ai"
 import {AiOutlineGithub} from "react-icons/ai"
 import Wave from "@/assets/Images/wave.png"
+
 import NextImage from "@/assets/Images/next.svg"
 export default function About() {
    

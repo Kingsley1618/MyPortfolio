@@ -14,6 +14,7 @@ import Hackathon from "@/assets/Images/Hackthon1-0.png"
 import Coindom from "@/assets/Images/CoinDom.png"
 import Expense from "@/assets/Images/Expense.png"
 import styles from "./portfolio.module.css"
+import {Bounce} from "react-awesome-reveal"
 export default function Portfolio() {
   return (
     <section id = "portfolio" className="bg-[rgb(249,249,249)] px-7 py-[29px]">
@@ -22,7 +23,7 @@ export default function Portfolio() {
 
 <div className="font-[600] text-[23px]">Each project is a unique piece of development</div>
 
-<div className="flex flex-col gap-y-[60px] mt-8 items-center">
+<Bounce cascade damping={0.1} triggerOnce className="flex flex-col gap-y-[60px] mt-8 items-center">
 
 <div className="flex items-center shadow-2xl px-2 lg:flex-row flex-col lg:gap-y-0 gap-y-6 lg:gap-x-[20px]  w-[100%] lg:max-w-[1000px] max-w-[620px] bg-white px-0 py-3 rounded-3xl">
 <div className="flex-[1]  text-center justify-center">
@@ -279,7 +280,7 @@ This website is on a mission to create prosperous communities across Africa by h
 
 
 
-</div>
+</Bounce>
 </div>
 
 
